@@ -1,0 +1,303 @@
+/*
+Theme Name: Cryobind
+Author: Kristina
+Autor URL:
+Version: 1.0
+*/
+
+*html {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+/* Header */
+header {
+  border-top: 2px solid #8d0000;
+  border-bottom: 2px solid gray;
+  background-color: #0a0a0c;
+  min-height: 50px;
+}
+.logo img {
+  width: 200px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+/* Nav Menu */
+.site-nav {
+  float: right;
+  min-height: 80px;
+}
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+}
+.site-nav ul li {
+  list-style: none;
+  float: left;
+  max-width: 100px;
+  text-align: center;
+}
+.site-nav ul li a:link,
+.site-nav ul li a:visited {
+  display: block;
+  text-decoration: none;
+  padding: 7px 10px 7px;
+  color: #fff;
+  font-size: 85%;
+  border: 1px solid #303030;
+  border-top: none;
+  height: 50px !important;
+}
+.site-nav ul li a:hover {
+  background: #fff;
+  color: #303030;
+}
+.site-nav ul li.current-menu-item a:link,
+.site-nav ul li.current-menu-item a:visited {
+  background-color: #8d0000;
+  color: #fff;
+}
+
+#nav-trigger {
+  display: block;
+  height: 45px;
+  max-width: 50px;
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#nav-trigger span {
+  cursor: pointer;
+  font-size: 200%;
+  color: #fff;
+}
+
+#x {
+  display: none;
+}
+
+.nav-mobile {
+  display: block;
+}
+.nav-mobile ul {
+  display: none;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  z-index: 1;
+  text-align: center;
+}
+.nav-mobile ul li {
+  height: 40px;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.nav-mobile ul li:last-child {
+}
+.nav-mobile ul li a {
+  padding: 10px 0px 0px 0px;
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 1em;
+}
+.nav-mobile ul li a:hover {
+  text-decoration: none;
+  color: #e94d1a;
+}
+.nav-mobile ul li.current-item a:active {
+  color: #fff;
+}
+
+/* Front Page */
+.front_page_foto {
+  height: auto;
+  width: 100%;
+  background-image: url(img/new_contentbcg1.png);
+  text-align: center;
+}
+
+.fpage-widget-area {
+  font-size: 90%;
+  margin-left: 10px;
+  list-style: none;
+}
+.fpage-widget-area a {
+  color: black;
+  text-decoration: none;
+}
+.fpage-widget-area a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.main-column {
+  margin: 10px 10px 10px 10px;
+}
+.post {
+  border-bottom: 2px dotted #bbbbbb;
+}
+.post:last-of-type {
+  border-bottom: none;
+}
+.posttitle {
+  margin-top: 40px;
+}
+.posttitle a,
+.posttitle a:hover {
+  color: black;
+  text-decoration: none;
+}
+.postinfo {
+  margin-left: 20px;
+  font-size: 85%;
+}
+.post_content {
+  color: black;
+  margin-bottom: 20px;
+}
+.post_content a {
+  color: black;
+  text-decoration: underline;
+}
+.post_pic {
+  padding-top: 60px;
+}
+
+/* Pages */
+.page_content {
+  margin-top: 30px;
+}
+.page_name {
+  min-height: 60px;
+  width: 100%;
+  background-color: #8d0000;
+}
+.page_name h4 {
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+.me_title {
+  margin-top: 130px;
+}
+
+.contact_page_content {
+  margin-top: 60px;
+}
+
+/* Scroll to top */
+.scroller {
+  width: 120px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background: #444;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  display: none;
+}
+.scroller:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 2px solid #999;
+  margin-top: 30px;
+  background-color: #0a0a0c;
+}
+
+/* Footer Nav Menu */
+.site-footer nav {
+  margin: 10px 0 10px 0;
+  height: 60px;
+}
+.site-footer nav ul li {
+  float: left;
+  display: block;
+}
+.site-footer nav ul li {
+  margin-right: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #ddd;
+}
+.site-footer nav ul li a {
+  color: #fff;
+  font-size: 85%;
+}
+.site-footer nav ul li a:hover {
+  color: #8d0000;
+}
+.site-footer nav ul li:last-of-type {
+  border-right: none;
+}
+.site-footer p {
+  margin: 10px 0 10px 0;
+  color: gray;
+  font-size: 85%;
+  float: right;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  .nav-mobile {
+    display: none;
+  }
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .site-nav {
+    float: right;
+    margin-right: 0px;
+  }
+  .site-nav ul li {
+    max-width: 75px;
+    text-align: center;
+  }
+  .site-nav ul li a:link,
+  .site-nav ul li a:visited {
+    padding: 10px 4px 4px;
+    font-size: 80%;
+  }
+  .nav-mobile {
+    display: none;
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .me_title {
+    margin-top: 0px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media all and (max-width: 767px) {
+  .me_title {
+    margin-top: 0px;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .me_title {
+    margin-top: 0px;
+  }
+}
