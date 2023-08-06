@@ -1,4 +1,5 @@
-# jprester.github.io
-Janko Prester Web Site 2018
+# Cryobind - HTML website
 
-version: 1.0.0
+Website for Cryobind company, build in simple HTML. Converted original site made with wordpress.
+
+Year 2023
